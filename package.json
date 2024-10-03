@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "express": "^4.19.2",
+    "install": "^0.13.0",
+    "mongodb": "^6.8.1",
+    "nodemon": "^3.1.4",
+    "pug": "^3.0.3",
+    "swup": "^4.7.0"
+  },
+  "scripts": {
+    "developer": "nodemon Dev.js"
+  }
+}

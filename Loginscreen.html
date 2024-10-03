@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEVloginScreen</title>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script defer src="node_modules/swup/dist/swup.min.js"></script>
+    <script defer type="module" src="Dev"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="wrapper">
+        <form action="">
+            <div id="swup" class="transition-swipe">
+            <p></p>
+            <div class="INPUT">
+                <box-icon name='user'></box-icon><input type="text" placeholder="username" required>
+            </div>
+            <div class="INPUT">
+                <box-icon name='lock'></box-icon><input type="password" placeholder="Password" required>
+            </div>
+            <div class="Rememberme">
+                <label for="Rememberme"><input type="checkbox">Remember Me</label>
+            </div>
+            <button type="submit" class="btn">Login</button>
+            <div class="Registerlink">
+            <p>Don't have an account? <a href="/Registerscreen.html">Register</a></p>
+            </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
